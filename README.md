@@ -1,4 +1,12 @@
 # **Virtual-piano**
-Проект виртуального пианино.
-В проекте используются: FullScreen API, работа со звуком в режиме реального времени итп
-Деплой здесь: (https://loki87by.github.io/virtual-piano/) [https://loki87by.github.io/virtual-piano/]
+Проект виртуальных пианино и ударных. 
+В проекте используются:
+
+* Flex-контейнеры
+* Медиаэлементы 
+* Fullscreen API
+* Псевдоэлементы 
+* Относительные величины
+* и многое другое
+
+[Деплой](https://loki87by.github.io/virtual-piano/)
