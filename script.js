@@ -55,14 +55,21 @@ function instrumentSwitch() {
   NOTESnLETTERS_BUTTONS.classList.toggle("hidden");
   PIANO.classList.toggle("hidden");
   DRUM_CONTAINER.classList.toggle("hidden");
+  const buttons = document.querySelector('.btn-container')
   if (currentSounds === "drums") {
     INSTRUMENT.src = "./assets/svg/Drums.svg";
     currentSounds = "piano";
     basicInstrument = NOTES;
+    buttons.classList.add('btn-container_piano-mobile')
+    INSTRUMENT.classList.add('instrument_piano-mobile')
+    FULLSCREEN_BUTTON.classList.add('fullscreen_piano-mobile')
   } else {
     INSTRUMENT.src = "./assets/svg/piano.svg";
     currentSounds = "drums";
     basicInstrument = DRUMS;
+    buttons.classList.remove('btn-container_piano-mobile')
+    INSTRUMENT.classList.remove('instrument_piano-mobile')
+    FULLSCREEN_BUTTON.classList.remove('fullscreen_piano-mobile')
   }
 }
 // * Notes/Letters buttons

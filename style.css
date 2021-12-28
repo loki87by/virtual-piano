@@ -330,3 +330,17 @@ kbd {
 :-webkit-full-screen .fullscreen {
   background-image: url("assets/svg/fullscreen-exit.svg");
 }
+
+@media (max-width: 720px) {
+  .btn-container_piano-mobile {
+    height: 120px;
+  }
+
+  .instrument_piano-mobile {
+    top: 70px;
+  }
+
+  .fullscreen_piano-mobile {
+    top: 70px;
+  }
+}
